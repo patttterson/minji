@@ -7,12 +7,23 @@ patty's own personal website! probably hosted at https://minji.love/
 - https://eightyeightthirty.one/
   - taken from all over this website
 
-I made a couple myself also!
+I made a couple myself also! (logos taken and/or recreated)
 - `bun.png`
 - `cobalt.gif`
 - `mcsrranked.png`
 - `scramjet.png`
 - `vert.gif`
+
+## Other Credits
+- `vgen.png` logo taken from https://doqmeat.com/
+- ollie's 88x31 @WholeWheatLemon
+- background commissioned from https://vgen.co/AgitoIsHere
+  - glazed the image myself :3
+  - to-do: add credits in website
+- `sandbina.gif` from [@nomianims](https://twitter.com/nomianims/status/1980071290112524656) on twitter
+- `favicon.svg` made from the newjeans lightstick app icon (completely serious)
+- [comfortaa](https://fonts.google.com/specimen/Comfortaa) font
+- https://webneko.net (top left)
 
 ## Developing
 
