@@ -1,40 +1,29 @@
-# sv
+# minji
+patty's own personal website! probably hosted at https://minji.love/
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## 88x31 Sources
+- https://88x31.kate.pet/
+- https://hekate2.github.io/buttonmaker/
+- https://eightyeightthirty.one/
+  - taken from all over this website
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv create --template minimal --types ts --add prettier eslint devtools-json --install bun minji
-```
+I made a couple myself also!
+- `bun.png`
+- `cobalt.gif`
+- `mcsrranked.png`
+- `scramjet.png`
+- `vert.gif`
 
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun run dev
 ```
 
 ## Building
 
-To create a production version of your app:
-
 ```sh
-npm run build
+bun run build
 ```
-
-You can preview the production build with `npm run preview`.

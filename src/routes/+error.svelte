@@ -34,7 +34,7 @@
 </script>
 
 {#if stacked}
-  <h1 id="error-code" bind:this={errorCodeEl}>
+  <h1 id="error-code" style="margin-bottom: .5em;" bind:this={errorCodeEl}>
     <a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
   </h1>
 {/if}
