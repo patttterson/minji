@@ -41,16 +41,19 @@
 		{ id: 'ollie', kind: 'image', src: 'ollie.png', alt: 'ollie.png', href: 'https://ollie.lol/' },
 		{ id: 'mcsrranked', kind: 'image', src: 'mcsrranked.png', alt: 'mcsrranked.png', href: 'https://mcsrranked.com/stats/652a4e7f-163d-41d5-8fae-cb47f59fb12c/' },
 		{ id: 'osu', kind: 'image', src: 'osu.png', alt: 'osu.png', href: 'https://osu.ppy.sh/users/18741136/' },
+		{ id: 'whatbox', kind: 'image', src: 'whatbox.png', alt: 'whatbox.png', href: 'https://whatbox.ca/' },
 		{ id: 'tetrio', kind: 'image', src: 'tetrio.png', alt: 'tetrio.png', href: 'https://tetr.io/' },
 		{ id: 'nocookie', kind: 'image', src: 'nocookie.gif', alt: 'nocookie.gif' },
-    { id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
+    	{ id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
 		{ id: 'spotify', kind: 'image', src: 'spotify.gif', alt: 'spotify.gif', href: 'https://open.spotify.com/user/3152qnqjeqtfabtkpxiekyfbhtsu/' },
 		{ id: 'twopaws', kind: 'image', src: 'twopaws.png', alt: 'twopaws.png', href: 'https://github.com/patttterson/minji/' },
 		{ id: 'scramjet', kind: 'image', src: 'scramjet.png', alt: 'scramjet.png', href: 'https://scramjet.torrent.minji.love/' },
 		{ id: 'uBO', kind: 'image', src: 'uBO.png', alt: 'uBO.png', href: 'https://github.com/gorhill/uBlock/' },
 		{ id: 'qbittorrent', kind: 'image', src: 'qbittorrent.png', alt: 'qbittorrent.png', href: 'https://qbittorrent.org/' },
+		{ id: 'firefox', kind: 'image', src: 'firefox.gif', alt: 'firefox.gif' },
 		{ id: 'nyaa', kind: 'image', src: 'nyaabanner.gif', alt: 'nyaabanner.gif' },
-		{ id: 'bun', kind: 'image', src: 'bun.png', alt: 'bun.png', href: 'https://bun.sh/' }
+		{ id: 'bun', kind: 'image', src: 'bun.png', alt: 'bun.png', href: 'https://bun.sh/' },
+		{ id: 'vscode', kind: 'image', src: 'vscode.gif', alt: 'vscode.gif', href: 'https://code.visualstudio.com/' }
 	];
 </script>
 

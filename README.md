@@ -6,13 +6,15 @@ patty's own personal website! probably hosted at https://minji.love/
 - https://hekate2.github.io/buttonmaker/
 - https://eightyeightthirty.one/
   - taken from all over this website
+- https://retronet05.neocities.org/Pages/88x31/
 
-I made a couple myself also! (logos taken and/or recreated)
+I made a couple myself also! (logos taken or recreated)
 - `bun.png`
 - `cobalt.gif`
 - `mcsrranked.png`
 - `scramjet.png`
 - `vert.gif`
+- `whatbox.png`
 
 ## Other Credits
 - `vgen.png` logo taken from https://doqmeat.com/

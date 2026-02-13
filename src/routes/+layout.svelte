@@ -1,19 +1,21 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
-	import "$lib/css/fonts.css";
-	import { onMount } from 'svelte';
-
 	import background from '$lib/assets/background.webp';
+	import "$lib/css/fonts.css";
+	import { dev } from '$app/environment';
 
 	let { children } = $props();
 
-	onMount(() => {
-		document.body.style.backgroundImage = `url(${background})`;
-	});
+	const title = 'patty\'s corner' + (dev ? ' [dev]' : '');
 </script>
 
 <svelte:head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{title}</title>
+	<meta name="description" property="og:description" content="patty's personal website" />
 	<link rel="icon" href={favicon} />
+	<link rel="preload" as="image" href={background} fetchpriority="high" />
+	<link rel="dns-prefetch" href="https://minji.love/" />
 </svelte:head>
 
 
@@ -22,6 +24,8 @@
 		--bg-overlay-rgb: 0, 0, 0;
 		--bg-dim: 0.6;
 		font-family: 'Comfortaa', system-ui, sans-serif;
+		background-image: url("$lib/assets/background.webp");
+		background-color: rgb(46, 46, 46);
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -43,8 +47,7 @@
 	}
 
 	:global(::selection), :global(::-moz-selection) {
-		background: #ff6ec7;
-		color: black;
+		background: rgba(0, 0, 0, 0.3);
 	}
 </style>
 
