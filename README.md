@@ -29,14 +29,12 @@ I made a couple myself also! (logos taken or recreated)
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `bun install`, start a development server:
 
 ```sh
 bun run dev
 ```
 
-## Building
+## Cloudflare Pages
 
-```sh
-bun run build
-```
+Set `	SKIP_DEPENDENCY_INSTALL` to `1`, and your build command should be `bun install && bun run build`
