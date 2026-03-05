@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Badges from '$lib/Badges.svelte';
-  import FlickeringText from '$lib/FlickeringText.svelte';
   import { onMount } from 'svelte';
+  import madebyagirl from '$lib/assets/badges/other/madebyagirl.png';
 
   onMount(() => {
     // https://webneko.net/
@@ -16,6 +16,20 @@
   });
 </script>
 
-<FlickeringText text="patty's corner" />
+<div class="header">
+  <img src={madebyagirl} alt="made by a girl" class="madebyagirl badge" />
+</div>
+<h1 class="title">
+	patty's corner
+</h1>
 
 <Badges />
+
+<style>
+  .badge {
+		image-rendering: auto;
+		image-rendering: crisp-edges;
+		image-rendering: pixelated;
+		image-rendering: -webkit-optimize-contrast;
+	}
+</style>

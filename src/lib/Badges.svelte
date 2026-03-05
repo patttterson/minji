@@ -44,7 +44,7 @@
 		{ id: 'whatbox', kind: 'image', src: 'whatbox.png', alt: 'whatbox.png', href: 'https://whatbox.ca/' },
 		{ id: 'tetrio', kind: 'image', src: 'tetrio.png', alt: 'tetrio.png', href: 'https://tetr.io/' },
 		{ id: 'nocookie', kind: 'image', src: 'nocookie.gif', alt: 'nocookie.gif' },
-    	{ id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
+    { id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
 		{ id: 'spotify', kind: 'image', src: 'spotify.gif', alt: 'spotify.gif', href: 'https://open.spotify.com/user/3152qnqjeqtfabtkpxiekyfbhtsu/' },
 		{ id: 'twopaws', kind: 'image', src: 'twopaws.png', alt: 'twopaws.png', href: 'https://github.com/patttterson/minji/' },
 		{ id: 'scramjet', kind: 'image', src: 'scramjet.png', alt: 'scramjet.png', href: 'https://scramjet.torrent.minji.love/' },

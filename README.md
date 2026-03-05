@@ -17,6 +17,8 @@ I made a couple myself also! (logos taken or recreated)
 - `whatbox.png`
 
 ## Other Credits
+> [!IMPORTANT]
+> PLEASE WHERE THE FUCK IS THE madebyagirl WEBSITE I CANT FIND IT ANYMORE
 - `vgen.png` logo taken from https://doqmeat.com/
 - ollie's 88x31 @WholeWheatLemon
 - background commissioned from https://vgen.co/AgitoIsHere
@@ -37,4 +39,4 @@ bun run dev
 
 ## Cloudflare Pages
 
-Set `	SKIP_DEPENDENCY_INSTALL` to `1`, and your build command should be `bun install && bun run build`
+Set the `SKIP_DEPENDENCY_INSTALL` variable to `1`, and your build command should be `bun install && bun run build`
