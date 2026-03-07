@@ -27,8 +27,7 @@
 		--bg-overlay-rgb: 0, 0, 0;
 		--bg-dim: 0.6;
 		font-family: 'Comfortaa', system-ui, sans-serif;
-		background-image: url("$lib/assets/background.webp");
-		background-color: rgb(46, 46, 46);
+		background-color: black;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -50,7 +49,7 @@
 	}
 
 	:global(::selection), :global(::-moz-selection) {
-		background: rgba(0, 0, 0, 0.3);
+		background: oklch(0.7411 0.2001 345.28);
 	}
 
 	#root {
