@@ -80,10 +80,12 @@
 
 <style>
 	.badges {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		column-gap: 10px;
-		row-gap: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		width: 100%;
+		padding: 16px 0 16px 0;
+		box-sizing: border-box;
 	}
 
 	.badge {

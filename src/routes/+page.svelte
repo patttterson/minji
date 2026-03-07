@@ -16,6 +16,8 @@
   });
 </script>
 
+<Badges />
+
 <div class="header">
   <img src={madebyagirl} alt="made by a girl" class="madebyagirl badge" />
 </div>
@@ -23,7 +25,7 @@
 	patty's corner
 </h1>
 
-<Badges />
+<h2>this shi empty ah hell dawg</h2>
 
 <style>
   .badge {

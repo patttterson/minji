@@ -35,7 +35,7 @@
 		color: white;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		min-height: 100vh;
 		margin: 0;
   }
@@ -52,8 +52,15 @@
 	:global(::selection), :global(::-moz-selection) {
 		background: rgba(0, 0, 0, 0.3);
 	}
+
+	#root {
+		width: 95%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
 </style>
 
-<div>
+<div id="root">
 	{@render children()}
 </div>
