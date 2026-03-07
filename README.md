@@ -15,6 +15,8 @@ I made a couple myself also! (logos taken or recreated)
 - `scramjet.png`
 - `vert.gif`
 - `whatbox.png`
+- `patty.gif`
+  - shoutout [aseprite](https://www.aseprite.org/)
 
 ## Other Credits
 > [!IMPORTANT]
