@@ -17,12 +17,14 @@ I made a couple myself also! (logos taken or recreated)
 - `whatbox.png`
 - `patty.gif`
   - shoutout [aseprite](https://www.aseprite.org/)
+- `2dollars_and_a_burger.png`
 
 ## Other Credits
 > [!IMPORTANT]
 > PLEASE WHERE THE FUCK IS THE madebyagirl WEBSITE I CANT FIND IT ANYMORE
 - `vgen.png` logo taken from https://doqmeat.com/
 - ollie's 88x31 @WholeWheatLemon
+- awesome's 88x31
 - background commissioned from https://vgen.co/AgitoIsHere
   - glazed the image myself :3
   - to-do: add credits in website
