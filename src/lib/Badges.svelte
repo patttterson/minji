@@ -85,6 +85,7 @@
 	.badges {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		gap: 10px;
 		width: 100%;
 		padding: 16px 0 16px 0;

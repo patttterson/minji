@@ -17,6 +17,7 @@ I made a couple myself also! (logos taken or recreated)
 - `whatbox.png`
 - `patty.gif`
   - shoutout [aseprite](https://www.aseprite.org/)
+  - feel free to put this on your own website if you want :3
 - `2dollars_and_a_burger.png`
 
 ## Other Credits
@@ -25,9 +26,6 @@ I made a couple myself also! (logos taken or recreated)
 - `vgen.png` logo taken from https://doqmeat.com/
 - ollie's 88x31 @WholeWheatLemon
 - awesome's 88x31
-- background commissioned from https://vgen.co/AgitoIsHere
-  - glazed the image myself :3
-  - to-do: add credits in website
 - `sandbina.gif` from [@nomianims](https://twitter.com/nomianims/status/1980071290112524656) on twitter
 - `favicon.svg` made from the newjeans lightstick app icon (completely serious)
 - [comfortaa](https://fonts.google.com/specimen/Comfortaa) font

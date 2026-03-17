@@ -19,12 +19,12 @@
   });
 </script>
 
-<Badges />
-
-
-<div class="other-badges">
-  <img src={madebyagirl} alt="made by a girl" class="madebyagirl badge" />
-  <img src={angelnumbers} alt="angel numbers" class="angelnumbers badge" />
+<div class="badges-container">
+  <Badges />
+  <div class="other-badges">
+    <img src={madebyagirl} alt="made by a girl" class="madebyagirl badge" />
+    <img src={angelnumbers} alt="angel numbers" class="angelnumbers badge" />
+  </div>
 </div>
 
 <div class="content">
@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: max(50%, 1000px);
+    width: min(1000px, 75%);
     margin: 0 auto;
   }
 
@@ -66,11 +66,16 @@
 		image-rendering: -webkit-optimize-contrast;
 	}
 
+  .badges-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .other-badges {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    align-self: center;
   }
 
   .projects-subtitle {

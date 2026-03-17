@@ -53,7 +53,6 @@
 	}
 
 	#root {
-		width: 95%;
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
