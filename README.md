@@ -26,6 +26,7 @@ I made a couple myself also! (logos taken or recreated)
 - `vgen.png` logo taken from https://doqmeat.com/
 - ollie's 88x31 @WholeWheatLemon
 - awesome's 88x31
+- v's 88x31 by arHSM from https://vendicated.dev/88x31/
 - `sandbina.gif` from [@nomianims](https://twitter.com/nomianims/status/1980071290112524656) on twitter
 - `favicon.svg` made from the newjeans lightstick app icon (completely serious)
 - [comfortaa](https://fonts.google.com/specimen/Comfortaa) font

@@ -33,22 +33,32 @@
   const mdnUrl = `https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/${page.status}`;
 </script>
 
-{#if stacked}
-  <h1 id="error-code" style="margin-bottom: .5em;" bind:this={errorCodeEl}>
-    <a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
-  </h1>
-{/if}
-<img src={blehh} alt="Error" bind:this={imageEl} />
-<div class="error-line" class:stacked={stacked} bind:this={errorLineEl}>
-  {#if !stacked}
-    <h1 id="error-code" bind:this={errorCodeEl}>
+<div class="error-container">
+  {#if stacked}
+    <h1 id="error-code" style="margin-bottom: .5em;" bind:this={errorCodeEl}>
       <a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
     </h1>
   {/if}
-  <h1 id="error-message" bind:this={errorMessageEl}>{page.error?.message}</h1>
+  <img src={blehh} alt="Error" bind:this={imageEl} />
+  <div class="error-line" class:stacked={stacked} bind:this={errorLineEl}>
+    {#if !stacked}
+      <h1 id="error-code" bind:this={errorCodeEl}>
+        <a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
+      </h1>
+    {/if}
+    <h1 id="error-message" bind:this={errorMessageEl}>{page.error?.message}</h1>
+  </div>
 </div>
 
 <style>
+  .error-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   img {
     width: clamp(220px, 70vw, 520px);
     height: auto;
