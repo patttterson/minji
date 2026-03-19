@@ -28,11 +28,12 @@
 </div>
 
 <div class="content">
-  <h1 class="title">
+  <h1 class="title mb-0">
     patty's corner
   </h1>
+  <p>high school student that sucks at web development and loves newjeans (#newjeansisfive)</p>
 
-  <h2>Projects</h2>
+  <h2 class="mb-0">Projects</h2>
   <p class="projects-subtitle">thats about it i got like nothing completed</p>
   <div class="projects">
     <div class="project-card minji">
@@ -65,6 +66,10 @@
     margin: 0 auto;
   }
 
+  .mb-0 {
+    margin-bottom: 0;
+  }
+
   .badge {
 		image-rendering: auto;
 		image-rendering: crisp-edges;
@@ -85,7 +90,6 @@
   }
 
   .projects-subtitle {
-    margin-top: 0;
     opacity: 0.6;
     font-size: 0.9rem;
   }
