@@ -7,18 +7,16 @@
 	// this error page is SO FUCKING OVERENGINEERED OH MY GOD
 	let errorCodeEl: HTMLHeadingElement;
 	let errorMessageEl: HTMLHeadingElement;
-	let imageEl: HTMLImageElement;
 	let errorLineEl: HTMLDivElement;
 	let artistCreditEl: HTMLDivElement;
 	let stacked = false;
-	let width = 0;
 	let artistCreditNaturalWidth = 0;
 
 	const updateLayout = () => {
 		if (!errorLineEl || !errorCodeEl || !errorMessageEl) return;
 		const gap = 32;
 		// clamp(220px, 85vw, 520px)
-		width = Math.min(Math.max(220, window.innerWidth * 0.85), 520);
+		const width = Math.min(Math.max(220, window.innerWidth * 0.85), 520);
 		const codeWidth = errorCodeEl.scrollWidth;
 		const messageWidth = errorMessageEl.scrollWidth;
 		stacked = width < codeWidth + messageWidth + gap;
@@ -54,8 +52,8 @@
 			<a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
 		</h1>
 	{/if}
-	<img src={blehh} class="error-image" alt="Error" bind:this={imageEl} style="width: {width}px" />
-	<div class="error-line" class:stacked bind:this={errorLineEl} style="width: {width}px">
+	<img src={blehh} class="error-image" alt="Error" />
+	<div class="error-line" class:stacked bind:this={errorLineEl}>
 		{#if !stacked}
 			<h1 id="error-code" bind:this={errorCodeEl}>
 				<a href={mdnUrl} target="_blank" rel="noopener noreferrer">{page.status}</a>
@@ -67,6 +65,7 @@
 
 <style>
 	.error-container {
+		--error-img-width: clamp(220px, 85vw, 520px);
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -110,12 +109,15 @@
 	}
 
 	.error-image {
-		height: auto;
+		width: var(--error-img-width);
+		height: calc(var(--error-img-width) / 2);
 		box-sizing: border-box;
 		border: 4px solid white;
+		background-color: oklch(0.8461 0.0647 316.95);
 	}
 
 	.error-line {
+		width: var(--error-img-width);
 		display: flex;
 		align-items: baseline;
 		gap: 1rem;
