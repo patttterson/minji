@@ -1,7 +1,9 @@
 # minji
+
 patty's own personal website! probably hosted at https://minji.love/
 
 ## 88x31 Sources
+
 - https://88x31.kate.pet/
 - https://hekate2.github.io/buttonmaker/
 - https://eightyeightthirty.one/
@@ -9,6 +11,7 @@ patty's own personal website! probably hosted at https://minji.love/
 - https://retronet05.neocities.org/Pages/88x31/
 
 I made a couple myself also! (logos taken or recreated)
+
 - `bun.png`
 - `cobalt.gif`
 - `mcsrranked.png`
@@ -21,14 +24,18 @@ I made a couple myself also! (logos taken or recreated)
 - `2dollars_and_a_burger.png`
 
 ## Other Credits
+
 > [!IMPORTANT]
 > PLEASE WHERE THE FUCK IS THE madebyagirl WEBSITE I CANT FIND IT ANYMORE
-- `vgen.png` logo taken from https://doqmeat.com/
+
 - ollie's 88x31 @WholeWheatLemon
 - awesome's 88x31
 - v's 88x31 by arHSM from https://vendicated.dev/88x31/
 - `sandbina.gif` from [@nomianims](https://twitter.com/nomianims/status/1980071290112524656) on twitter
-- `favicon.svg` made from the newjeans lightstick app icon (completely serious)
+- `vgen.png` logo taken from https://doqmeat.com/
+- favicon made from the newjeans lightstick app icon (completely serious)
+- `vgen-logo-dark-bg.png` from [VGen Brand Assets](https://help.vgen.co/hc/en-us/articles/12884824880663-VGen-Brand-Assets)
+  - `Satoshi-Variable.woff2` from [fontshare](https://www.fontshare.com/fonts/satoshi)
 - [comfortaa](https://fonts.google.com/specimen/Comfortaa) font
 - https://webneko.net (top left)
 

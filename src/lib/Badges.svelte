@@ -20,15 +20,16 @@
 		import: 'default'
 	}) as Record<string, string>;
 
-  function resolveBadgeSrc(src: string): string {
-    const key = `/src/lib/assets/badges/${src}`;
-    if (key in badgeImages) {
-      return badgeImages[key];
-    }
-    console.warn(`Badge image not found: ${src}`);
-    return src;
-  }
+	function resolveBadgeSrc(src: string): string {
+		const key = `/src/lib/assets/badges/${src}`;
+		if (key in badgeImages) {
+			return badgeImages[key];
+		}
+		console.warn(`Badge image not found: ${src}`);
+		return src;
+	}
 
+	// prettier-ignore
 	export let badges: Badge[] = [
 		{ id: 'increment', kind: 'iframe', src: '//incr.easrng.net/badge?key=minji', style: 'background: url(//incr.easrng.net/bg.gif)', title: 'increment badge' },
 		{ id: 'sandbina', kind: 'image', src: 'sandbina.gif', alt: 'sandbina.gif', href: 'https://twitter.com/nomianims' },
@@ -44,7 +45,7 @@
 		{ id: 'newjeans', kind: 'image', src: 'newjeans.gif', alt: 'newjeans.gif', href: 'https://en.wikipedia.org/w/index.php?title=NewJeans&oldid=1343878074#2024%E2%80%93present:_Conflict_with_Hybe,_hiatus,_and_Danielle\'s_departure' },
 		{ id: 'tetrio', kind: 'image', src: 'tetrio.png', alt: 'tetrio.png', href: 'https://tetr.io/' },
 		{ id: 'nocookie', kind: 'image', src: 'nocookie.gif', alt: 'nocookie.gif' },
-    { id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
+		{ id: 'vgen', kind: 'image', src: 'vgen.png', alt: 'vgen.png', href: 'https://vgen.co/' },
 		{ id: 'wikipedia', kind: 'image', src: 'wikipedia.gif', alt: 'wikipedia.gif', href: 'https://en.wikipedia.org/' },
 		{ id: 'cobalt', kind: 'image', src: 'cobalt.gif', alt: 'cobalt.gif', href: 'https://cobalt.tools/' },
 		{ id: 'jellyfin', kind: 'image', src: 'jellyfin.gif', alt: 'jellyfin.gif', href: 'https://jellyfin.org/' },
@@ -74,8 +75,14 @@
 				frameborder="0"
 			></iframe>
 		{:else if badge.href}
-			<a class="badge-link" href={badge.href} target="_blank" rel="noopener noreferrer">
-				<img class="badge" width="88" height="31" src={resolveBadgeSrc(badge.src)} alt={badge.alt} />
+			<a class="badge-link" href={badge.href} target="_blank" rel="noopener noreferrer external">
+				<img
+					class="badge"
+					width="88"
+					height="31"
+					src={resolveBadgeSrc(badge.src)}
+					alt={badge.alt}
+				/>
 			</a>
 		{:else}
 			<img class="badge" width="88" height="31" src={resolveBadgeSrc(badge.src)} alt={badge.alt} />
