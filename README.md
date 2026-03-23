@@ -29,6 +29,7 @@ I made a couple myself also! (logos taken or recreated)
 > PLEASE WHERE THE FUCK IS THE madebyagirl WEBSITE I CANT FIND IT ANYMORE
 
 - ollie's 88x31 @WholeWheatLemon
+- berry's 88x31
 - awesome's 88x31
 - v's 88x31 by arHSM from https://vendicated.dev/88x31/
 - `sandbina.gif` from [@nomianims](https://twitter.com/nomianims/status/1980071290112524656) on twitter

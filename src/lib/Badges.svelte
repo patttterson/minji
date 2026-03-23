@@ -36,6 +36,7 @@
 		{ id: '88x31', kind: 'image', src: '88x31.png', alt: '88x31.png', href: 'https://github.com/NotNite/eightyeightthirtyone/' },
 		{ id: 'patty', kind: 'image', src: 'patty-nb.gif', alt: 'patty-nb.gif', href: 'https://minji.love/' },
 		{ id: 'ollie', kind: 'image', src: 'ollie.png', alt: 'ollie.png', href: 'https://ollie.lol/' },
+		{ id: 'berry', kind: 'image', src: 'berry.gif', alt: 'berry.gif' },
 		{ id: 'awesome', kind: 'image', src: 'awesome.png', alt: 'awesome.png' },
 		{ id: 'ven', kind: 'image', src: 'ven.gif', alt: 'ven.gif', href: 'https://vendicated.dev/' },
 		{ id: 'mcsrranked', kind: 'image', src: 'mcsrranked.png', alt: 'mcsrranked.png', href: 'https://mcsrranked.com/stats/652a4e7f-163d-41d5-8fae-cb47f59fb12c/' },
