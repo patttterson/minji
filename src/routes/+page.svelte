@@ -29,7 +29,7 @@
 
 <div class="content">
 	<h1 class="title mb-0">patty's corner</h1>
-	<p>high school student that sucks at web development and loves newjeans (#newjeansisfive)</p>
+	<p>dumb idiot that sucks at web development and loves newjeans (#newjeansisfive)</p>
 
 	<h2 class="mb-0">Projects</h2>
 	<p class="projects-subtitle">thats about it i got like nothing completed</p>
