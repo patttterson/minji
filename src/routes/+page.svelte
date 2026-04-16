@@ -70,24 +70,6 @@
 				aria-label="github source"><i class="fab fa-github"></i></a
 			>
 		</div>
-		<div class="project-card danielle">
-			<a
-				class="project-main-link"
-				href="https://taws.minji.love"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="danielle"
-			></a>
-			<span class="project-name">danielle</span>
-			<span class="project-desc">TAWS schedule</span>
-			<a
-				class="project-github"
-				href="https://github.com/patttterson/danielle"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github source"><i class="fab fa-github"></i></a
-			>
-		</div>
 	</div>
 </div>
 
@@ -184,10 +166,6 @@
 
 	.project-card.asumi .project-name {
 		color: oklch(0.9031 0.0468 261.36);
-	}
-
-	.project-card.danielle .project-name {
-		color: oklch(0.8693 0.1696 95.62);
 	}
 
 	.project-github {
