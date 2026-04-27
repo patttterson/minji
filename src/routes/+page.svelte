@@ -108,7 +108,9 @@
 					<span class="esports-event-role">tournament organizer</span>
 					<span class="esports-event-role">creator</span>
 				</div>
-				<p class="esports-event-desc">a community minecraft speedrunning ranked tournament for runners who hate percentages</p>
+				<p class="esports-event-desc">
+					a community minecraft speedrunning ranked tournament for runners who hate percentages
+				</p>
 				<span class="esports-event-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
 				<div class="esports-video-wrap">
 					<iframe
@@ -125,7 +127,8 @@
 			<div class="esports-event taws">
 				<div class="esports-event-info">
 					<span class="esports-event-name">TAWS</span>
-					<span class="esports-event-role">stream host & commentator</span>
+					<span class="esports-event-role">stream host</span>
+					<span class="esports-event-role">commentator</span>
 				</div>
 				<div class="esports-video-wrap">
 					<iframe
