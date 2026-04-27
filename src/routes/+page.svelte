@@ -33,9 +33,10 @@
 	<p>dumb idiot that sucks at web development and loves newjeans (#newjeansisfive)</p>
 
 	<a href="https://hackatime.hackclub.com" target="_blank" rel="noopener noreferrer">
-		<img 
-			src="https://github-readme-stats.hackclub.dev/api/wakatime?username=20644&api_domain=hackatime.hackclub.com&theme=rose&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8" 
+		<img
+			src="https://github-readme-stats.hackclub.dev/api/wakatime?username=20644&api_domain=hackatime.hackclub.com&theme=rose&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8"
 			alt="Hackatime Stats"
+			class="hackatime-img"
 		/>
 	</a>
 
@@ -171,7 +172,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		width: min(1000px, 75%);
+		width: min(1100px, 75%);
 		margin: 0 auto;
 	}
 
@@ -389,6 +390,11 @@
 		width: 100%;
 		height: 100%;
 		border: none;
+	}
+
+	.hackatime-img {
+		max-width: 100%;
+		height: auto;
 	}
 
 	a {
