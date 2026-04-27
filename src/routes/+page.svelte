@@ -32,6 +32,13 @@
 	<h1 class="title mb-0">patty's corner</h1>
 	<p>dumb idiot that sucks at web development and loves newjeans (#newjeansisfive)</p>
 
+	<a href="https://hackatime.hackclub.com" target="_blank" rel="noopener noreferrer">
+		<img 
+			src="https://github-readme-stats.hackclub.dev/api/wakatime?username=20644&api_domain=hackatime.hackclub.com&theme=rose&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8" 
+			alt="Hackatime Stats"
+		/>
+	</a>
+
 	<h2 class="mb-0">Projects</h2>
 	<p class="projects-subtitle">thats about it i got like nothing completed</p>
 	<div class="projects">
@@ -145,6 +152,17 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<h2 class="mb-0">Hobbies</h2>
+	<p>earlier = most recent, my ADHD makes them change a lot lol</p>
+	<div class="hobbies">
+		<p>editing wikipedia - <a href="https://xtools.wmcloud.org/ec/en.wikipedia.org/Pattersonuwu" target="_blank" rel="noopener noreferrer">My stats</a></p>
+		<p>open source (mostly small things, im new to big projects)</p>
+		<p>web development</p>
+		<p>gaming</p>
+		<p>music production (i use FL Studio, but im not very good at it)</p>
+		<p>drawing (also not very good at it)</p>
 	</div>
 </div>
 
@@ -327,6 +345,10 @@
 		padding: 2px 8px;
 		border-radius: 999px;
 		border: 1px solid rgba(255, 255, 255, 0.1);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		min-width: 0;
 	}
 
 	.esports-event-desc {
@@ -367,5 +389,10 @@
 		width: 100%;
 		height: 100%;
 		border: none;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: underline;
 	}
 </style>
