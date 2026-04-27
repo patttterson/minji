@@ -126,10 +126,13 @@
 
 			<div class="esports-event taws">
 				<div class="esports-event-info">
-					<span class="esports-event-name">TAWS</span>
+					<span class="esports-event-name">TETR.IO Amateur Weeklies</span>
 					<span class="esports-event-role">stream host</span>
 					<span class="esports-event-role">commentator</span>
 				</div>
+				<p class="esports-event-desc">
+					weekly rank capped TETR.IO tournaments, created by willyjwillyj @ ttv/tetrioamateurweekliies
+				</p>
 				<div class="esports-video-wrap">
 					<iframe
 						src="https://www.youtube-nocookie.com/embed/e09jxmwDP_I?start=1312"
@@ -266,16 +269,17 @@
 	}
 
 	.esports-events {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		gap: 12px;
 		width: 100%;
 	}
 
-	.esports-event {
+.esports-event {
 		position: relative;
 		display: flex;
 		flex-direction: column;
+		min-width: 0;
 		gap: 8px;
 		padding: 16px;
 		border-radius: 10px;
